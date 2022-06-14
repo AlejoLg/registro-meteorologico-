@@ -21,7 +21,7 @@ int main() {
         diatmax=dia;
         tempmax=1;
         }
-    if(tmax>primertemp){
+    else if(tmax>primertemp){
         diatmax=dia;
        primertemp=tmax;
         }
@@ -62,7 +62,7 @@ int main() {
     if( contdll>contdsinll && contdll/cantVueltas>=1){ //pongo 1 porque 1/3 de 3 d�as que ejecuta el FOR, es 1
         cout<<endl<< "Los dias fueron lluviosos y humedos"<<endl;
     }
-    if(contdll==0){
+    else if(contdll==0){
         cout<<endl<< "Los dias fueron secos"<<endl;
     }
 	return 0;

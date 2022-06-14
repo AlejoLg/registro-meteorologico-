@@ -12,7 +12,7 @@ int main() {
     cin>> dia;
     cout<<endl;
 //----------------------------------------------------------------// TEMP MAX, AMP TERMICA
-    cout<<"Ingrese temperatura del dia: ";
+    cout<<"Ingrese temperatura del dÃ­a: ";
     cin>> tmax;
     cout<<endl;
     if(tempmax==0){
@@ -59,7 +59,7 @@ int main() {
 //----------------------------------------------------------------//CLIMA DE LOS DIAS
 
 
-    if( contdll>contdsinll && contdll/cantVueltas>=1){ //pongo 1 porque 1/3 de 3 días que ejecuta el FOR, es 1
+    if( contdll>contdsinll && contdll/cantVueltas>=1){ //pongo 1 porque 1/3 de 3 dï¿½as que ejecuta el FOR, es 1
         cout<<endl<< "Los dias fueron lluviosos y humedos"<<endl;
     }
     if(contdll==0){
